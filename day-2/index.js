@@ -4,8 +4,8 @@ data = data.split(",").map(num => +num); // convert to number
 
 
 const opcode = {
-  1 : ( i, input ) => input[input[i+2]]=input[input[i]]+input[input[i+1]],
-  2 : ( i, input ) => input[input[i+2]]=input[input[i]]*input[input[i+1]]
+  1 : ( i, input ) => input[ input[ i + 2 ]] = input[ input[i]] + input[ input[ i + 1 ]],
+  2 : ( i, input ) => input[ input[ i + 2 ]] = input[ input[i]] * input[ input[ i + 1 ]]
 }
 
 const firstTask = (input) => {
