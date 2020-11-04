@@ -37,6 +37,6 @@ const secondTask = ( input ) => {
   }
 };
 
-console.log("First problem:", firstTask(data));
-console.log("Second problem:", secondTask(data));
+console.log("First task:", firstTask(data));
+console.log("Second task:", secondTask(data));
 
