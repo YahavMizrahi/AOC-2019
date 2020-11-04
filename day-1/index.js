@@ -23,6 +23,6 @@ const secondTask = (input) => {
   return input.map(fuelConsumptionTask2).reduce((accumulator, currentValue) => accumulator + currentValue);
 };
 
-console.log("First problem:", firstTask(data));
-console.log("Second problem:", secondTask(data));
+console.log("First task:", firstTask(data));
+console.log("Second task:", secondTask(data));
 
